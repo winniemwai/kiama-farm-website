@@ -40,10 +40,17 @@ h1 {
 }
 h2 {
   text-align: center;
-  color: rgb(113, 187, 113);
+  color: seagreen;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
   margin-bottom: 10px;
+  font-size: 50px;
+}
+h3 {
+  text-align: center;
+  color: seagreen;
+  font-size: 40px;
+  margin-top: 15px;
 }
 
 .about-container {
@@ -61,6 +68,6 @@ h2 {
 }
 .image-1 {
   margin-right: 50px;
-  width: 300px;
+  width: 400px;
   height: 300px;
 }
