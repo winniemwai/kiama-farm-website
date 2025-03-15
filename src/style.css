@@ -81,3 +81,19 @@ h3 {
   display: flex;
   justify-content: space-around;
 }
+.product-item {
+  background-color: white;
+  padding: 20px;
+  width: 30%;
+  margin: 10px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.product-item img {
+  width: 60%;
+  height: auto;
+}
+.product-item a {
+  display: block;
+  color: blueviolet;
+  text-decoration: none;
+}
