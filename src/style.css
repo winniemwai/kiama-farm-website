@@ -53,6 +53,10 @@ h3 {
   margin-top: 0;
   margin-bottom: 20px;
 }
+h5 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
 
 .about-container {
   display: flex;
@@ -96,4 +100,54 @@ h3 {
   display: block;
   color: blueviolet;
   text-decoration: none;
+}
+.contact-footer {
+  padding: 40px 20px;
+  background-color: darkgreen;
+  color: white;
+  text-align: center;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.contact-form label {
+  text-align: left;
+  margin-bottom: 5px;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.contact-form button {
+  background-color: #fff;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.contact-form button:hover {
+  background-color: #45a049;
+}
+@media (max-width: 768px) {
+  .navbar .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  .products-section .products {
+    flex-direction: column;
+  }
+  .product-item {
+    width: 80%;
+    margin: 10px auto;
+  }
 }
