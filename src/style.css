@@ -63,9 +63,21 @@ h2 {
   color: seagreen;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-size: 30px;
 }
+select {
+  display: block;
+  width: 30%;
+  font-size: 18px;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border: 2px solid darkgreen;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
 h3 {
   text-align: center;
   color: seagreen;
