@@ -64,7 +64,7 @@ h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
   margin-bottom: 20px;
-  font-size: 30px;
+  font-size: 3vw;
 }
 select {
   display: block;
@@ -81,7 +81,7 @@ select {
 h3 {
   text-align: center;
   color: seagreen;
-  font-size: 40px;
+  font-size: 3vw;
   margin-top: 0;
   margin-bottom: 20px;
 }
@@ -185,4 +185,11 @@ h5 {
     width: 80%;
     margin: 10px auto;
   }
+.about-container {
+  flex-direction: column;
+  align-items: center;
+
+
+
+
 }
