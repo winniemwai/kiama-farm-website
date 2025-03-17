@@ -93,6 +93,8 @@ h5 {
 .about-container {
   display: flex;
   justify-content: space-between;
+  font-weight: 200;
+  font-size: 1.2rem;
 }
 .about-p {
   max-width: 800px;
@@ -106,7 +108,8 @@ h5 {
 .image-1 {
   margin-right: 50px;
   width: 400px;
-  height: 300px;
+  height: auto;
+  max-width: 100%;
 }
 .products-section {
   padding: 40px 20px;
