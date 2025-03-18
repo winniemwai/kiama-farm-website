@@ -8,11 +8,23 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: white;
 }
-.navbar {
+nav {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 75px;
+  background: darkgreen;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+nav .navbar {
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
-  background-color: darkgreen;
+  height: 100%;
+  width: 90%;
+  margin: auto;
+  background: darkgreen;
 }
 .logo {
   width: 100%;
@@ -36,7 +48,7 @@ body {
 .moving-message {
   text-align: center;
   width: 0;
-  margin-top: 0;
+  margin: 0 auto;
   color: darkorange;
   font-size: 2.5vw;
   white-space: nowrap;

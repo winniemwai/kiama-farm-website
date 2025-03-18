@@ -12,18 +12,20 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <nav class="navbar">
-      <div class="logo">
-        <img src="images/logo.Jpg.jpg" alt="farm logo" />
+    <nav>
+      <div class="navbar">
+        <div class="logo">
+          <img src="images/logo.Jpg.jpg" alt="farm logo" />
+        </div>
+        <ul class="nav-links">
+          <li><a href="">Home</a></li>
+          <li><a href="">About us</a></li>
+          <li><a href="">products-section</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
       </div>
-      <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About us</a></li>
-        <li><a href="#">products</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
     </nav>
-    <section id="main">
+    <section id="home">
       <header>
         <h1 class="moving-message">Welcome to Kiama Green Acres</h1>
         <h2><strong> Nurturing the earth,feeding families</strong></h2>
@@ -44,7 +46,7 @@
         <option value="">fresh bananas</option>
       </select>
     </section>
-    <section id="about">
+    <section id="About-us">
       <div class="about-container">
         <p class="about-p">
           Welcome to Kiama Green Acres, nestled at the foot of Karima Hill in
@@ -58,7 +60,7 @@
         </p>
       </div>
     </section>
-    <section id="" class="products-section">
+    <section id="products-section" class="products-section">
       <h3>Our Products</h3>
       <div class="product-container">
         <div class="product-item">
@@ -100,38 +102,40 @@
         </div>
       </div>
     </section>
-    <footer id="contacts" class="contact-footer">
-      <h5>Contact Us</h5>
-      <form
-        action="https://formspree.io/f/meoaogvz"
-        method="post"
-        class="contact-form"
-      >
-        <label for="name">Your Name: </label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          required
-          placeholder="Enter your name"
-        />
-        <label for="email">Your Email</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="Enter your email"
-          required
-        />
-        <label for="message">Message</label>
-        <textarea
-          id="message"
-          name="message"
-          required
-          placeholder="Enter your message"
-        ></textarea>
-        <button type="submit">Submit</button>
-      </form>
-    </footer>
+    <section id="contacts">
+      <footer id="contacts" class="contact-footer">
+        <h5>Contact Us</h5>
+        <form
+          action="https://formspree.io/f/meoaogvz"
+          method="post"
+          class="contact-form"
+        >
+          <label for="name">Your Name: </label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Enter your name"
+          />
+          <label for="email">Your Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            required
+            placeholder="Enter your message"
+          ></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </footer>
+    </section>
   </body>
 </html>
