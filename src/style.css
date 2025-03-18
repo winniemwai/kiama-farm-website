@@ -67,7 +67,7 @@ nav .navbar {
   text-align: center;
   width: 0;
   margin: 0 auto;
-  color: white;
+  color: yellowgreen;
   font-size: 3vw;
   white-space: nowrap;
   overflow: hidden;
@@ -231,7 +231,7 @@ h5 {
 }
 
 @media only screen and (min-width: 480px) {
-  nav .navbar .nav-links {
+  .navbar .nav-links {
     align-items: center;
     width: 100%;
   }
@@ -247,7 +247,7 @@ h5 {
   }
 }
 @media only screen and (min-width: 601px) {
-  nav .navbar .nav-links {
+  .navbar .nav-links {
     align-items: center;
     width: 100%;
     font-size: 1.5rem;
@@ -264,7 +264,7 @@ h5 {
   }
 }
 @media only screen and (min-width: 768px) {
-  nav .navbar .nav-links {
+  .navbar .nav-links {
     align-items: center;
     width: 100%;
   }
@@ -281,7 +281,7 @@ h5 {
 }
 
 @media only screen and (min-width: 1000px) {
-  nav .navbar .nav-links {
+  .navbar .nav-links {
     align-items: center;
     width: 100%;
   }
