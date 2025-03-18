@@ -7,6 +7,22 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: white;
+  background: linear-gradient(
+    102.2deg,
+    rgb(109, 118, 150) 7.1%,
+    rgb(89, 72, 79) 14.7%,
+    rgb(69, 92, 79) 28%,
+    rgb(204, 85, 67) 43.4%,
+    rgb(237, 181, 121) 60.2%,
+    rgb(219, 230, 175) 76.8%
+  );
+}
+.website-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+  object-fit: cover;
 }
 nav {
   left: 0;
@@ -15,6 +31,7 @@ nav {
   height: 75px;
   background: darkgreen;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  position: relative;
 }
 
 nav .navbar {
@@ -22,7 +39,7 @@ nav .navbar {
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  width: 90%;
+  width: 100%;
   margin: auto;
   background: darkgreen;
 }
@@ -38,6 +55,7 @@ nav .navbar {
 }
 .nav-links li {
   margin-left: 20px;
+  font-size: 1rem;
 }
 .nav-links li a {
   text-decoration: none;
@@ -49,12 +67,12 @@ nav .navbar {
   text-align: center;
   width: 0;
   margin: 0 auto;
-  color: darkorange;
-  font-size: 2.5vw;
+  color: white;
+  font-size: 3vw;
   white-space: nowrap;
   overflow: hidden;
   animation: typing 4s steps(20) 1s forwards, blink 0.75s step-end infinite;
-  font-weight: bold;
+  font-weight: 600;
 }
 @keyframes typing {
   0% {
@@ -72,7 +90,7 @@ nav .navbar {
 
 h2 {
   text-align: center;
-  color: seagreen;
+  color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
   margin-bottom: 20px;
@@ -105,9 +123,12 @@ h5 {
 .about-container {
   font-weight: 200;
   font-size: 1.2rem;
-  background-color: darkgreen;
-  max-width: 600px;
   margin: 0 auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
 }
 .about-p {
   margin: 0 auto;
@@ -116,21 +137,32 @@ h5 {
   line-height: 1.8;
   font-size: 1.1rem;
 }
+.about-us {
+  text-align: center;
+  padding: 40px 20px;
+}
 
 .products-section {
   padding: 40px 20px;
   text-align: center;
   background-color: beige;
+  border-radius: 6px;
+  object-fit: cover;
 }
 .product-container {
   display: flex;
   justify-content: space-around;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  object-fit: cover;
+  padding: 0 auto;
 }
 .product-item {
   background-color: white;
-  padding: 20px;
-  width: 30%;
-  margin: 10px 0;
+  width: 100%;
+  padding: 10px;
+  margin: 0 auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .product-item img {
@@ -147,6 +179,8 @@ h5 {
   background-color: darkgreen;
   color: white;
   text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 .contact-form {
   display: flex;
@@ -197,7 +231,7 @@ h5 {
 }
 
 @media only screen and (min-width: 480px) {
-  .navbar .nav-links {
+  nav .navbar .nav-links {
     align-items: center;
     width: 100%;
   }
@@ -213,9 +247,10 @@ h5 {
   }
 }
 @media only screen and (min-width: 601px) {
-  .navbar .nav-links {
+  nav .navbar .nav-links {
     align-items: center;
     width: 100%;
+    font-size: 1.5rem;
   }
   .products-section .products {
     flex-direction: column;
@@ -229,7 +264,7 @@ h5 {
   }
 }
 @media only screen and (min-width: 768px) {
-  .navbar .nav-links {
+  nav .navbar .nav-links {
     align-items: center;
     width: 100%;
   }
@@ -246,7 +281,7 @@ h5 {
 }
 
 @media only screen and (min-width: 1000px) {
-  .navbar .nav-links {
+  nav .navbar .nav-links {
     align-items: center;
     width: 100%;
   }
