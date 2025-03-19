@@ -44,8 +44,8 @@ nav .navbar {
   background: darkgreen;
 }
 .logo {
-  width: 100%;
-  height: auto;
+  width: 40%;
+  height: 40px;
 }
 .nav-links {
   display: flex;
@@ -216,14 +216,14 @@ h5 {
 @media only screen and (max-width: 600px) {
   .navbar .nav-links {
     align-items: center;
-    width: 100%;
+    width: 80%;
   }
   .products-section .products {
     flex-direction: column;
   }
   .product-item {
-    width: 100%;
-    margin: 10px auto;
+    width: 80%;
+    margin: 0 auto;
   }
   .about-container {
     align-items: center;
@@ -233,7 +233,7 @@ h5 {
 @media only screen and (min-width: 480px) {
   .navbar .nav-links {
     align-items: center;
-    width: 100%;
+    width: 80%;
   }
   .products-section .products {
     flex-direction: column;
@@ -266,14 +266,14 @@ h5 {
 @media only screen and (min-width: 768px) {
   .navbar .nav-links {
     align-items: center;
-    width: 100%;
+    width: 80%;
   }
   .products-section .products {
     flex-direction: column;
   }
   .product-item {
     width: 100%;
-    margin: 10px auto;
+    margin: 0 auto;
   }
   .about-container {
     align-items: center;
@@ -289,8 +289,8 @@ h5 {
     flex-direction: column;
   }
   .product-item {
-    width: 100%;
-    margin: 10px auto;
+    width: 80%;
+    margin: 0 auto;
   }
   .about-container {
     align-items: center;
